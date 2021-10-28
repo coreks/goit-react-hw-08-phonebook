@@ -1,0 +1,17 @@
+.title {
+  padding-left: 50px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.form {
+  width: 320px;
+  padding-left: 40px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}

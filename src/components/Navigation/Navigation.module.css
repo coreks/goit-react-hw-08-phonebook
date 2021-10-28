@@ -1,0 +1,25 @@
+/* .link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  color: #2a363b;
+}
+
+.activeLink {
+  color: #e84a5f;
+} */
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  color: #2a363b;
+  font-size: 24px;
+}
+
+.activeLink {
+  composes: link;
+  color: #2196f3;
+}
